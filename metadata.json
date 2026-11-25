@@ -1,0 +1,8 @@
+{
+  "name": "LUMORA Eyecare",
+  "description": "LUMORA Eyecare – Ánh sáng cho đôi mắt, Tầm nhìn cho tương lai. Giải pháp chăm sóc và kiểm soát cận thị với lens đeo ban đêm LUMORA Ortho-K kết hợp ứng dụng theo dõi thị lực.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

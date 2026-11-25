@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --lumora-ivory: #F5F4F1;
+    --lumora-navy: #1D2433;
+    --lumora-wave: #C9CDD6;
+    --lumora-sky: #5B8FB9;
+    --lumora-surface: #FFFFFF;
+  }
+
+  .dark {
+    --lumora-ivory: #0F141F;
+    --lumora-navy: #F5F4F1;
+    --lumora-wave: #2B354A;
+    --lumora-sky: #7EB2DB;
+    --lumora-surface: #171E2C;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Be Vietnam Pro', system-ui, sans-serif;
+  }
+
+  h1, h2 {
+    text-wrap: balance;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
